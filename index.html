@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e74fefee01.js" crossorigin="anonymous"></script>
+    <title>Bootsrap</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <style>
+      #banner-img{
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/DSC_9704_RS\ \(1\)\ \(1\).jpg");
+      
+      }
+    </style>
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Navbar -->
+    <!-- fixed top lo pega arriba-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <!-- container fluid ocupa toda la pantalla, container solo lo distribuye -->
+        <div class="container">
+          <a class="navbar-brand" href="#"><img  width="50px" src="./img/a-anahuac.webp" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://merida.anahuac.mx/" target="_self">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://example.com/" target="_blank">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Usuarios</a></li>
+                  <li><a class="dropdown-item" href="#">Clientes</a></li>
+                  <li><a class="dropdown-item" href="#">Productos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Atención alumnos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Por venir...</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control m-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <section class="bg-dark text-light p-5 text-center text-sm-start mt-5">
+        <div class="container">
+          <!-- flex es parecido a grid -->
+          <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+            <!-- agregar un span dentro de una etiqueta, deja utilizar dos o más estilos en la misma -->
+            <h2>Volvernos <span class="text-warning">Desarrolladores de aplicaciones web</span></h2>
+            <p class="lead my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, architecto voluptatem nihil reiciendis suscipit iure? Laboriosam consectetur eos quaerat iusto sapiente eaque labore in fugiat?</p>
+            <button class="btn btn-warning btn-lg">Inscribirse</button>
+            </div>
+            <img src="./img/showcase.svg" alt="" class="img-fluid w-50 d-none d-sm-block">
+          </div>
+        </div>
+      </section>
+      <section class="bg-warning text-dark text-center">
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-between py-4" id="ofertas">
+            <div>
+              <h3>30
+                <h6>Cursos</h6>
+              </h3>
+            </div>
+            <div>
+              <h3>11
+                <h6>Proyectos</h6>
+              </h3>
+            </div>
+            <div>
+              <h3>45%
+                <h6>En Becas</h6>
+              </h3>
+            </div>
+            <div>
+              <h3>+180
+                <h6>Empleos</h6>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="banner-img" class="container-fluid align-items-center text-center p-2">
+        <h3 class="pt-3 text-warning">
+          Sobre nosotros
+        </h3>
+        <h5 class="img-font p-3 text-light">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis amet minima itaque quidem odio ipsam quam ad neque laudantium. Quisquam, ipsa inventore. Voluptatum voluptatibus excepturi laborum sed numquam illum porro ducimus, consequuntur, ullam, doloribus voluptas hic ex velit quae. Dolorum laborum velit, debitis ipsum iure sapiente ut expedita, sequi quaerat quia eaque ea perspiciatis ad autem quibusdam tempore quis. Eos iure tempore nemo rem dolorum modi nesciunt autem. A atque nam necessitatibus. Corporis, qui labore ut culpa similique maxime? Dolorum?
+        </h5>
+        <button class="btn btn-warning btn-lg justify-content-center align-items-center mb-5">Conoce las instalaciones</button>
+      </div>
+      <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container-fluid">
+            <div class="d-sm-flex align-items-center justify-content-between m-2 pt-4">
+              <div>
+                <h3 class="text-warning">¿Ya sabes qué quieres estudiar?</h3>
+                <p class="text-light increase-font">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum impedit, eveniet cupiditate cumque, laboriosam vitae facilis tempore ut eum quidem explicabo amet officiis error.</p>
+                <button class="btn btn-warning btn-lg">Conoce los programas</button>
+              </div>
+              <img class="tamaño-imagen m-2" src="./img/banner_rector_web_Mesa de trabajo 1.png" alt="">
+            </div>
+        </div>
+      </section>
+      <section class="text-dark bg-warning text-sm-start text-center py-4">
+        <h3 class="text-center py-2">Noticias</h3>
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-between py-2">
+            <div class="card" style="width: 24rem;">
+              <img class="card-img-top" src="./img/card1.jpg" alt="Card image cap">
+              <div class="card-body bg-dark">
+                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 24rem;">
+              <img class="card-img-top" src="./img/card2.webp" alt="Card image cap">
+              <div class="card-body text-light bg-dark">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 24rem;">
+              <img class="card-img-top" src="./img/HeaderHS_2024_Blog.webp" alt="Card image cap">
+              <div class="card-body bg-dark">
+                <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

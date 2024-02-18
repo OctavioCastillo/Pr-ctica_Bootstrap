@@ -1,0 +1,36 @@
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+h3{
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 45px;
+  font-weight: 900;
+  font-style: normal;
+  color: rgba(33,37,41,255)
+}
+
+h6{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+    color: rgba(33,37,41,255)
+}
+
+h5{
+    text-align: center;
+    font-size: 35px;
+    color: rgba(33,37,41,255);
+}
+
+.increase-font{
+    font-size: 25px;
+}
+
+.tamaño-imagen{
+    width: 800px;
+}
